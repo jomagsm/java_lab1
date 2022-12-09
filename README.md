@@ -1,18 +1,7 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+ДЗ:
+Добавить 4-го игрока Medic, у которого есть способность лечить после каждого раунда на N-ное количество единиц здоровья только одного из членов команды, имеющего здоровье менее 100 единиц. Мертвых героев медик оживлять не может, и лечит он до тех пор пока жив сам. Медик не участвует в бою, но получает урон от Босса. Сам себя медик лечить не может.
+ДЗ на сообразительность:
+**Добавить n-го игрока, Golem, который имеет увеличенную жизнь но слабый удар. Принимает на себя 1/5 часть урона исходящего от босса по другим игрокам.
+*Добавить n-го игрока, Lucky, имеет шанс уклонения от ударов босса.
+**Добавить n-го игрока, Berserk, блокирует часть удара босса по себе и прибавляет заблокированный урон к своему урону и возвращает его боссу 
+*Добавить n-го игрока, Thor, удар по боссу имеет шанс оглушить босса на 1 раунд, вследствие чего босс пропускает 1 раунд и не наносит урон героям. // random.nextBoolean(); - true, false
